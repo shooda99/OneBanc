@@ -1,0 +1,62 @@
+
+
+body{
+    background-image: url("img.png");
+    background-size: cover;
+
+}
+.border{
+    width: 100%;
+   
+    height: 800px;
+    margin: 0%;
+    height: fit-content;
+    
+}
+
+#logo{
+    width: 85%;
+    max-width: 330px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 0;
+
+}
+.wording{
+    width: 85%;
+    max-width: 330px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 0;
+    font-size: 50px;
+}
+#line{
+    font-size: 15px;
+    margin-left: 30px;
+}
+.submit{
+    width: 25%;
+    border: 1px solid black;
+    height: 90px;
+    margin-left: 30px;
+    padding: 0px;
+    background-color: #004da3;
+}
+#text{
+    margin-left: 10px;
+    color: white;
+}
+#box{
+    margin-left: 10px;
+}
+#logo2{
+    margin-left: 30px;
+    width: 180px;
+}
+.bottom{
+    font-size: small;
+    margin-left: 30px;
+}
+#banker{
+    width:100px;
+}

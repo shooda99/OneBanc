@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>OneBanc-EARN | TRACK | INVEST | GROW</title>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="border">
+    <img id="logo" src="pic.png" class="logo" alt="OneBanc - EARN | TRACK | INVEST | GROW">
+    <div class="wording">
+        <div>RE:</div>
+        <div>THINK</div>
+        <div id="foo">
+        </div>
+    </div>
+
+<h2 id="line">We are a Neo Bank and are here to re-imagine and re-invent Banking.<br>
+     We are cool and simply awesome!</h2>
+    
+    <div class="submit">
+        <h4 id="text">Get an early invitation for our Beta release.</h4>
+        <form id="box">
+            <input type="text" name="email" placeholder="Enter Email Address">
+        </form>
+    </div>
+    <br>
+    <img id="logo2" src="qrcode.png">
+    <br>
+    <br>
+    <div class="bottom">
+        <div>Terms & Conditions | Privacy Policy</div>
+        <div>2021 © OneBanc Technologies Pvt. Ltd.</div>
+     </div>
+
+    </div>
+
+<script src="./typewriter.js"></script>
+<script>
+
+    var foo = document.getElementById('foo');
+
+    var typewriter = new Typewriter(foo, {
+        loop: true,
+        delay: 75,
+    });
+
+    typewriter.typeString('SAVINGS')
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString('PAYMENTS')
+        .pauseFor(2500)
+        .deleteChars(8)
+        .typeString('FOREX')
+        .pauseFor(2500)
+        .start();
+    
+</script>
+</body>
+</html>
